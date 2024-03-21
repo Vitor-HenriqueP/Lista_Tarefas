@@ -28,5 +28,35 @@ li a:hover {
 h4 {
 	color: #009933 !important;
 }
+.link-check {
+    font-size: 24px; /* Tamanho padrão do ícone */
+    color: green; /* Cor padrão do ícone */
+    text-decoration: none; /* Remover sublinhado padrão */
+}
+
+/* Estilo quando hover */
+.link-check:hover {
+    transform: scale(1.2); /* Aumenta o tamanho do ícone em 20% quando hover */
+    color: red; /* Muda a cor do ícone para vermelho quando hover */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+.link-trash {
+    text-decoration: none;
+}
+
+.link-trash:hover i {
+    transform: scale(1.2);
+    color: red;
+    cursor: pointer;
+}
+.link-edit {
+    text-decoration: none;
+}
+
+.link-edit:hover i {
+    transform: scale(1.2);
+    color: blue; /* Altere a cor conforme desejado */
+    cursor: pointer;
+}
 
 
